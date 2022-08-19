@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Form from './components/Form'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Form />
+    </>
+  )
 }
 
-export default App;
+export default App
+
+//https://codesandbox.io/s/mui5-react-hook-form-7-multi-step-form-9idkw?file=/src/Components/Step1.js
+
+//https://medium.com/@phebianchukwurah/multistep-form-with-react-hooks-e57be1e31995
